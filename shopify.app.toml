@@ -3,7 +3,7 @@
 client_id = "454758138613b899a33766304a845002"
 name = "order-dashboard"
 handle = "order-dashboard-6"
-application_url = "https://shall-numbers-sword-wrapped.trycloudflare.com"
+application_url = "https://understood-lisa-sites-nil.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://shall-numbers-sword-wrapped.trycloudflare.com/auth/callback",
-  "https://shall-numbers-sword-wrapped.trycloudflare.com/auth/shopify/callback",
-  "https://shall-numbers-sword-wrapped.trycloudflare.com/api/auth/callback"
+  "https://understood-lisa-sites-nil.trycloudflare.com/auth/callback",
+  "https://understood-lisa-sites-nil.trycloudflare.com/auth/shopify/callback",
+  "https://understood-lisa-sites-nil.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

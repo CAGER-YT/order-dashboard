@@ -145,10 +145,11 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Card, Page, DataTable } from '@shopify/polaris';
 import { fetchShopifyData } from '../retrive.js';
+import { read } from '../read.js';
 
 function AdditionalPage() {
   const [rows, setRows] = useState([]);
-  const [totals, setTotals] = useState(['', 0, '0.00']);
+  const [totals, setTotals] = useState(['', '', '0.00']);
 
   useEffect(() => {
     async function getData() {
